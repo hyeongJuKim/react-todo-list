@@ -9,7 +9,7 @@ const Form = ({value, onChange, onCreate, onKeyPress}) => {
         추가
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Form;
