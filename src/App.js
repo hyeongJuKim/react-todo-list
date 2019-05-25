@@ -7,6 +7,7 @@ import Palette from './components/Palette';
 import './App.css';
 
 const colors = ['#343a40', '#f03e3e', '#12b886', '#228ae6'];
+document.title = "TODO List";
 
 class App extends Component {
 
@@ -17,9 +18,9 @@ class App extends Component {
     input: '',
     todos: [
       {id: 0, text: '항목을 추가하세요!! ', checked: true},
-      {id: 1, text: '방 정리', checked: false},
-      {id: 2, text: '눈썹 정리', checked: false},
-      {id: 3, text: '온라인이력서, 링크드인 최신화', checked: false},
+      {id: 1, text: '색상 선택 후 내용 입력', checked: false},
+      {id: 2, text: '클릭하면 완료처리 됨', checked: false},
+      {id: 3, text: '왼쪽의 X를 누르면 사라짐', checked: false},
     ],
     color: '#343a40'
   }
